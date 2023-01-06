@@ -1,14 +1,17 @@
                     SIMPLE SHELL
 The shell is a command line prompt that takes the most basics of caommand that are present in the bash shel and run them.
 
-    The shell works by using commands given by user input:
+
+The shell works by using commands given by user input:
             command_name {argument}
 
-    COMPILATION:
+
+COMPILATION:
 - the shell work like this interactive mode
     $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
-    Requirements:
+
+Requirements:
 - Allowed editors: vi, vim, emacs
 - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra - -pedantic -std=gnu89
 - All your files should end with a new line
@@ -20,7 +23,8 @@ No more than 5 functions per file
 - Use system calls only when you need to (why?)ements:
 
 
-    List of allowed functions ans system calls:
+
+List of allowed functions ans system calls:
 * access (man 2 access)
 * chdir (man 2 chdir)
 * close (man 2 close)
